@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/a216"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:id="@+id/id_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textSize="16sp"
+        android:id="@+id/id_question"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_imageview"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="start"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textIsSelectable="false" />
+
+    <ImageView
+        android:id="@+id/id_boxa"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/id_question"
+        android:visibility="invisible"
+        android:src="@drawable/green3" />
+
+    <Button
+        style="@android:style/Widget.Button.Inset"
+        android:id="@+id/id_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_question"
+        android:layout_gravity="start"
+        android:layout_toRightOf="@id/id_boxa"
+        android:text="Dap an A"
+        android:textAlignment="textStart"
+        android:textAllCaps="false" />
+
+
+    <ImageView
+        android:id="@+id/id_boxb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_a"
+        android:adjustViewBounds="true"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:scaleType="fitEnd"
+        android:visibility="invisible"
+        android:src="@drawable/green3" />
+
+
+    <Button
+        android:id="@+id/id_b"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_toRightOf="@id/id_boxb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_a"
+        android:textAllCaps="false" />
+
+
+    <ImageView
+        android:id="@+id/id_boxc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_b"
+        android:adjustViewBounds="true"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:scaleType="fitEnd"
+        android:visibility="invisible"
+        android:src="@drawable/green3" />
+
+    <Button
+        android:id="@+id/id_c"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_b"
+        android:layout_toRightOf="@+id/id_boxc"
+        android:textAllCaps="false"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/id_boxd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_c"
+        android:adjustViewBounds="true"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:scaleType="fitEnd"
+        android:visibility="invisible"
+        android:src="@drawable/green3" />
+
+    <Button
+        android:id="@+id/id_d"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/id_boxd"
+        android:textStyle="normal"
+        android:layout_below="@id/id_c"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

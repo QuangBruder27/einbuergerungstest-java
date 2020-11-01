@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nhập tịch Đức</string>
+    <string name="buyfullversion">Mua bản đầy đủ</string>
+    <string name="trial_test">Dùng thử</string>
+    <string name="general_question">Câu hỏi chung</string>
+    <string name="Info_test">Thông tin bài thi</string>
+    <string name="exit">Thoát</string>
+    <string name="question_states">Câu hỏi bang</string>
+    <string name="unit">Bài</string>
+    <string name="point">Điểm</string>
+    <string name="in">trong</string>
+    <string name="min">phút</string>
+    <string name="true_ans">Chính xác</string>
+    <string name="false_ans">Sai. Đáp án đúng là</string>
+    <string name="choose">Chọn bài học</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="highscore">Điểm cao nhất</string>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_ad_unit_1">ca-app-pub-2440183521770590/2391739132</string>
+    <string name="banner_ad_unit_2">ca-app-pub-2440183521770590/5397354031</string>
+    <string name="banner_ad_unit_3">ca-app-pub-2440183521770590/4474444163</string>
+    <string name="product_id">id_product1</string>
+    <string name="buy_app_request">Vui lòng mua ứng dụng</string>
+    <string name="thanks">Cảm ơn bạn đã mua ứng dụng</string>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="banner_ad_unit_1">ca-app-pub-2440183521770590/2391739132</string>
+    <string name="banner_ad_unit_2">ca-app-pub-2440183521770590/5397354031</string>
+    <string name="banner_ad_unit_3">ca-app-pub-2440183521770590/4474444163</string>
+
+    <string name="app_name">Nhập tịch Đức</string>
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="buyfullversion">Buy full version</string>
+    <string name="trial_test">Trial Version</string>
+    <string name="general_question">General Question</string>
+    <string name="Info_test">Info about test</string>
+    <string name="exit">Exit</string>
+    <string name="question_states">Question about States</string>
+    <string name="unit">Unit</string>
+    <string name="highscore">HighScore</string>
+    <string name="point">Points</string>
+    <string name="in">in</string>
+    <string name="min">mins</string>
+    <string name="true_ans">Correct</string>
+    <string name="false_ans">Wrong. The correct answer is</string>
+    <string name="choose">Choose unit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="product_id">id_product1</string>
+    <string name="buy_app_request">Buy app please</string>
+    <string name="thanks">Thanks for buying the app</string>
+
+</resources>

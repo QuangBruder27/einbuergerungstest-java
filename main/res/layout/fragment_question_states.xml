@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/id_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/m338" />
+
+  <LinearLayout
+      android:id="@+id/id_linear1"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@+id/id_map"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+      <ImageButton
+          style="@style/Widget.AppCompat.Button.Borderless"
+          android:id="@+id/id_a_states_img"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <ImageButton
+          style="@style/Widget.AppCompat.Button.Borderless"
+          android:id="@+id/id_b_states_img"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <ImageButton
+          style="@style/Widget.AppCompat.Button.Borderless"
+          android:id="@+id/id_c_states_img"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <ImageButton
+          style="@style/Widget.AppCompat.Button.Borderless"
+          android:id="@+id/id_d_states_img"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+
+  </LinearLayout>
+
+    <Button
+        android:textSize="16sp"
+        android:id="@+id/id_question_states"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_linear1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="start"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textIsSelectable="false" />
+
+    <ImageView
+        android:id="@+id/id_boxa_states"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/id_question_states"
+        android:visibility="invisible"
+        android:src="@drawable/green3" />
+
+    <Button
+        style="@android:style/Widget.Button.Inset"
+        android:id="@+id/id_a_states"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_question_states"
+        android:layout_gravity="start"
+        android:layout_toRightOf="@id/id_boxa_states"
+        android:text="Dap an A"
+        android:textAlignment="textStart"
+        android:textAllCaps="false" />
+
+
+    <ImageView
+        android:id="@+id/id_boxb_states"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_a_states"
+        android:adjustViewBounds="true"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:scaleType="fitEnd"
+        android:visibility="invisible"
+        android:src="@drawable/green3" />
+
+
+    <Button
+        android:id="@+id/id_b_states"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_toRightOf="@id/id_boxb_states"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_a_states"
+        android:textAllCaps="false" />
+
+
+    <ImageView
+        android:id="@+id/id_boxc_states"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_b_states"
+        android:adjustViewBounds="true"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:scaleType="fitEnd"
+        android:visibility="invisible"
+        android:src="@drawable/green3" />
+
+    <Button
+        android:id="@+id/id_c_states"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_b_states"
+        android:layout_toRightOf="@+id/id_boxc_states"
+        android:textAllCaps="false"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/id_boxd_states"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_c_states"
+        android:adjustViewBounds="true"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:scaleType="fitEnd"
+        android:visibility="invisible"
+        android:src="@drawable/green3" />
+
+    <Button
+        android:id="@+id/id_d_states"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/id_boxd_states"
+        android:textStyle="normal"
+        android:layout_below="@id/id_c_states"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

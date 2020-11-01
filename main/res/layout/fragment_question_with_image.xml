@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FragmentQuestionWithImage">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/id_questionImg"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="start"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textIsSelectable="false"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/linearAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_questionImg"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/id_box_imga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/imgbtnA"
+                android:adjustViewBounds="true"
+                android:maxHeight="20dp"
+                android:maxWidth="20dp"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                android:src="@drawable/green3" />
+
+            <ImageButton
+                android:id="@+id/imgbtnA"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/a21a"
+                android:visibility="visible" />
+
+
+            <ImageButton
+                android:id="@+id/imgbtnB"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/a21b"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/id_box_imgb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgbtnB"
+                android:adjustViewBounds="true"
+                android:maxHeight="20dp"
+                android:maxWidth="20dp"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                android:src="@drawable/green3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearAB"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/id_box_imgc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout="@+id/imgbtnC"
+                android:maxHeight="20dp"
+                android:maxWidth="20dp"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                android:src="@drawable/green3" />
+
+            <ImageButton
+                android:id="@+id/imgbtnC"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/a21c"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/imgbtnD"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/a21d"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/id_box_imgd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgbtnD"
+                android:adjustViewBounds="true"
+                android:maxHeight="20dp"
+                android:maxWidth="20dp"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                android:src="@drawable/green3" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

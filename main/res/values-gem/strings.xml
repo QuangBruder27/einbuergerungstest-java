@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="buyfullversion">Vollversion kaufen</string>
+    <string name="trial_test">Probeversion</string>
+    <string name="general_question">Allgemeine Fragen</string>
+    <string name="Info_test">Info über Test</string>
+    <string name="exit">Exit</string>
+    <string name="question_states">Frage zum Bundesland</string>
+    <string name="unit">Unit</string>
+    <string name="highscore">Höchste Punkte</string>
+    <string name="point">Punkte</string>
+    <string name="in">in</string>
+    <string name="true_ans">Korrekt</string>
+    <string name="false_ans">Falsch Die richtige Antwort lautet</string>
+    <string name="choose">Wählen Einheit</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="min">mins</string>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_ad_unit_1">ca-app-pub-2440183521770590/2391739132ca-app-pub-2440183521770590/2391739132</string>
+    <string name="banner_ad_unit_2">ca-app-pub-2440183521770590/5397354031</string>
+    <string name="banner_ad_unit_3">ca-app-pub-2440183521770590/4474444163</string>
+    <string name="product_id">id_product1</string>
+    <string name="buy_app_request">App kaufen bitte</string>
+    <string name="thanks">Danke für den Kauf der App</string>
+</resources>

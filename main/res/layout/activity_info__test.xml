@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/de1"
+    tools:context=".Info_Test">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Einbürgerungstest là kỳ thi trắc nghiệm xung quanh các chủ đề Xã hội, Lịch sử, Chính trị và con người Đức, do Sở di cư và tỵ nạn liên bang (BAMF) biên soạn.\n\n  Thông qua việc thi đậu kỳ thi này sẽ chứng mình được sự hòa nhập cửa người nước ngoài vào Xã hội Đức để xin giấy phép cư trú vô thời hạn (unbefristete Aufenthalterlaubnis) , cũng như là một điều kiện tiên quyết để nhập quốc tịch Đức.\n\n  Bài thi gồm 33 câu hỏi diễn ra trong 60 phút, trả lời đúng 17 câu trở lên được coi là đạt.
+
+        "
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView_info_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_3">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_out_frage"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_width="match_parent"
+    android:background="@drawable/de1"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/id_bayern"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Bayern" />
+
+            <Button
+                android:id="@+id/id_berlin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Berlin" />
+
+            <Button
+                android:id="@+id/id_sachan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sachsen"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/id_bremen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Bremen" />
+            <Button
+                android:id="@+id/id_hessen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Hessen" />
+
+
+            <Button
+                android:id="@+id/id_niedersa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Niedersachsen"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/id_baden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baden-Württemberg"
+                android:textSize="12dp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/id_meck"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mecklenburg-Vorpommern" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/id_thuer"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thüringen" />
+
+            <Button
+                android:id="@+id/id_saarl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Saarland" />
+
+
+            <Button
+                android:id="@+id/id_ham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Hamburg" />
+
+            <Button
+                android:id="@+id/id_branden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Brandenburg" />
+
+
+            <Button
+                android:id="@+id/id_sachsen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sachsen-Anhalt"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/id_rlf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Rheinland-Pfalz" />
+            <Button
+                android:id="@+id/id_nrw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nordrhein-Westfalen"
+                android:textSize="12dp"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/id_schless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Schleswig-Holstein" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_2">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
